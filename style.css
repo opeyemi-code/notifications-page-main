@@ -102,7 +102,10 @@ a:hover {
 
 .private-message p {
   text-align: left;
+}
 
+.private-message:hover{
+  background-color: hsl(205, 33%, 90%);
 }
 
 .unread-msg {
@@ -134,7 +137,7 @@ a:hover {
   }
 
   #container {
-    width: 600px;
+    max-width: 1000px;
   }
   
    .attribution{
