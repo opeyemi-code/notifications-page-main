@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Notifications <span id="unread-msg-length">3</span></h1>
+
+      <h2 id="mark-all-btn"><a href="#">Mark all as read</a></h2>
+    </header>
+    <div id="main-body">
+      <div class="notification-msg unread-msg">
+        <div>
+          <img src="/assests/images/avatar-mark-webber.webp" alt="">
+        </div>
+        <div>
+          <p><span class="user-name"><a href="#">Mark Webber</a></span> reacted to your recent post <span class="post"><a href="#">My first tournament today!</a></span><span class="red-bullet"></span></p>
+          <p>1m ago</p>
+        </div>
+      </div>
+      <div class="notification-msg unread-msg">
+        <div>
+          <img src="/assests/images/avatar-angela-gray.webp" alt="">
+        </div>
+        <div>
+          <p><span class="user-name"><a href="#">Angela Gray</a></span> followed you<span class="red-bullet"></span></p>
+          <p>5m ago</p>
+        </div>
+      </div>
+      <div class="notification-msg unread-msg">
+        <div>
+          <img src="/assests/images/avatar-jacob-thompson.webp" alt="">
+        </div>
+        <div>
+          <p><span class="user-name"><a href="#">Jacob Thomps</a></span> has joined your group <span class="group"><a href="#">Chess Club</a></span><span class="red-bullet"></span></p>
+          <p>1 day ago</p>
+        </div>
+      </div>
+      <div class="notification-msg">
+        <div class="img-container">
+          <img src="/assests/images/avatar-rizky-hasanuddin.webp" alt="">
+        </div>
+        <div>
+          <p><span class="user-name"><a href="">Rizky Hasanuddin</a></span> sent you a private message</p>
+          <p>5 days ago</p>
+          <div class="private-message">
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="notification-msg">
+        <div class="img-container">
+          <img src="/assests/images/avatar-kimberly-smith.webp" alt="">
+        </div>
+        <div>
+          <p><span class="user-name"><a href="#">Kimberly Smith</a></span> commented on your picture</p>
+          <p>1 week ago</p>
+        </div>
+        <div class="img-container chess-img">
+          <img src="/assests/images/image-chess.webp" alt="">
+        </div>
+      </div>
+      <div class="notification-msg">
+        <div class="img-container">
+          <img src="/assests/images/avatar-nathan-peterson.webp" alt="">
+        </div>
+        <div>
+          <p><span class="user-name"><a href="#">Nathan Peterson</a></span> reacted to your recent post <span class="post"><a href="#">5 end-game strategies to increase your win rate</a></span>
+          </p>
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+      <div class="notification-msg">
+        <div class="img-container">
+          <a href="#"><img src="/assests/images/avatar-anna-kim.webp" alt=""></a>
+        </div>
+        <div>
+          <p><span class="user-name"><a href="#">Anna Kim</a></span> left the group <span class="group"><a href="#">Chess Club</a></span></p>
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.github.com/opeyemi-code">Opeyemi</a>.
+  </div>
+</body>
+<script src="main.js">main.js</script>
+  </html>
